@@ -16,7 +16,7 @@ function SpeedChecker(speed) {
         let speed = parseInt(input);
 
         const excessSpeed = speed- speedLimit;
-    const demeritPoints = Math.floor(excessSpeed / demeritPointMark);
+        const demeritPoints = Math.floor(excessSpeed / demeritPointMark);
 
 
     if (speed <= speedLimit) {
